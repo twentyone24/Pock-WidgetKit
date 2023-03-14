@@ -17,7 +17,7 @@ class quotesWidget: PKWidget {
     var view: NSView!
     
     required init() {
-        self.view = PKButton(title: "quotesWidget", target: self, action: #selector(printMessage))
+        self.view = PKButton(title: "Hello", target: self, action: #selector(printMessage))
     }
     
     @objc private func printMessage() {

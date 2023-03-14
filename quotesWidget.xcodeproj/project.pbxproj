@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		676A10CD29C042C700131BB7 /* quotesWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676A10CC29C042C700131BB7 /* quotesWidget.swift */; };
+		676A10D729C0431600131BB7 /* PockKit in Frameworks */ = {isa = PBXBuildFile; productRef = 676A10D629C0431600131BB7 /* PockKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				676A10D729C0431600131BB7 /* PockKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +81,9 @@
 			dependencies = (
 			);
 			name = quotesWidget;
+			packageProductDependencies = (
+				676A10D629C0431600131BB7 /* PockKit */,
+			);
 			productName = quotesWidget;
 			productReference = 676A10C829C042C700131BB7 /* quotesWidget.pock */;
 			productType = "com.apple.product-type.bundle";
@@ -107,6 +112,9 @@
 				Base,
 			);
 			mainGroup = 676A10BE29C042C700131BB7;
+			packageReferences = (
+				676A10D529C0431600131BB7 /* XCRemoteSwiftPackageReference "pockkit" */,
+			);
 			productRefGroup = 676A10C929C042C700131BB7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -330,6 +338,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		676A10D529C0431600131BB7 /* XCRemoteSwiftPackageReference "pockkit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pock/pockkit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		676A10D629C0431600131BB7 /* PockKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 676A10D529C0431600131BB7 /* XCRemoteSwiftPackageReference "pockkit" */;
+			productName = PockKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 676A10BF29C042C700131BB7 /* Project object */;
 }
