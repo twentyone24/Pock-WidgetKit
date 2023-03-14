@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		676A10CD29C042C700131BB7 /* quotesWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676A10CC29C042C700131BB7 /* quotesWidget.swift */; };
 		676A10D729C0431600131BB7 /* PockKit in Frameworks */ = {isa = PBXBuildFile; productRef = 676A10D629C0431600131BB7 /* PockKit */; };
+		6786DC4729C045E200BF08F9 /* SClockItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6786DC4629C045E200BF08F9 /* SClockItem.swift */; };
+		6786DC4929C0463A00BF08F9 /* StatusItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6786DC4829C0463A00BF08F9 /* StatusItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +18,8 @@
 		676A10CC29C042C700131BB7 /* quotesWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quotesWidget.swift; sourceTree = "<group>"; };
 		676A10CE29C042C700131BB7 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
 		676A10CF29C042C700131BB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6786DC4629C045E200BF08F9 /* SClockItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SClockItem.swift; sourceTree = "<group>"; };
+		6786DC4829C0463A00BF08F9 /* StatusItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				676A10CC29C042C700131BB7 /* quotesWidget.swift */,
+				6786DC4629C045E200BF08F9 /* SClockItem.swift */,
+				6786DC4829C0463A00BF08F9 /* StatusItem.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -160,7 +166,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6786DC4929C0463A00BF08F9 /* StatusItem.swift in Sources */,
 				676A10CD29C042C700131BB7 /* quotesWidget.swift in Sources */,
+				6786DC4729C045E200BF08F9 /* SClockItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
